@@ -18,6 +18,9 @@
 		0B4A050017588FDF009E3A3D /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0B4A04FF17588FDF009E3A3D /* Default-568h@2x.png */; };
 		0B4A050317588FDF009E3A3D /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B4A050217588FDF009E3A3D /* ViewController.m */; };
 		0B4A050F17589073009E3A3D /* UIFancySwitch.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B4A050E17589073009E3A3D /* UIFancySwitch.m */; };
+		0B4A05121758913D009E3A3D /* UIFancySwitchButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B4A05111758913D009E3A3D /* UIFancySwitchButton.m */; };
+		0B4A0517175892FA009E3A3D /* slider-btn.png in Resources */ = {isa = PBXBuildFile; fileRef = 0B4A0515175892FA009E3A3D /* slider-btn.png */; };
+		0B4A0518175892FA009E3A3D /* slider-btn@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0B4A0516175892FA009E3A3D /* slider-btn@2x.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -38,6 +41,10 @@
 		0B4A050217588FDF009E3A3D /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		0B4A050D17589073009E3A3D /* UIFancySwitch.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UIFancySwitch.h; sourceTree = "<group>"; };
 		0B4A050E17589073009E3A3D /* UIFancySwitch.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UIFancySwitch.m; sourceTree = "<group>"; };
+		0B4A05101758913D009E3A3D /* UIFancySwitchButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UIFancySwitchButton.h; sourceTree = "<group>"; };
+		0B4A05111758913D009E3A3D /* UIFancySwitchButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UIFancySwitchButton.m; sourceTree = "<group>"; };
+		0B4A0515175892FA009E3A3D /* slider-btn.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "slider-btn.png"; sourceTree = "<group>"; };
+		0B4A0516175892FA009E3A3D /* slider-btn@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "slider-btn@2x.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -111,10 +118,30 @@
 		0B4A050C17589017009E3A3D /* Classes */ = {
 			isa = PBXGroup;
 			children = (
-				0B4A050D17589073009E3A3D /* UIFancySwitch.h */,
-				0B4A050E17589073009E3A3D /* UIFancySwitch.m */,
+				0B4A0513175892CC009E3A3D /* UIFancySwitch */,
 			);
 			name = Classes;
+			sourceTree = "<group>";
+		};
+		0B4A0513175892CC009E3A3D /* UIFancySwitch */ = {
+			isa = PBXGroup;
+			children = (
+				0B4A0514175892DE009E3A3D /* imgs */,
+				0B4A050D17589073009E3A3D /* UIFancySwitch.h */,
+				0B4A050E17589073009E3A3D /* UIFancySwitch.m */,
+				0B4A05101758913D009E3A3D /* UIFancySwitchButton.h */,
+				0B4A05111758913D009E3A3D /* UIFancySwitchButton.m */,
+			);
+			name = UIFancySwitch;
+			sourceTree = "<group>";
+		};
+		0B4A0514175892DE009E3A3D /* imgs */ = {
+			isa = PBXGroup;
+			children = (
+				0B4A0515175892FA009E3A3D /* slider-btn.png */,
+				0B4A0516175892FA009E3A3D /* slider-btn@2x.png */,
+			);
+			name = imgs;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -172,6 +199,8 @@
 				0B4A04FC17588FDF009E3A3D /* Default.png in Resources */,
 				0B4A04FE17588FDF009E3A3D /* Default@2x.png in Resources */,
 				0B4A050017588FDF009E3A3D /* Default-568h@2x.png in Resources */,
+				0B4A0517175892FA009E3A3D /* slider-btn.png in Resources */,
+				0B4A0518175892FA009E3A3D /* slider-btn@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -186,6 +215,7 @@
 				0B4A04FA17588FDF009E3A3D /* AppDelegate.m in Sources */,
 				0B4A050317588FDF009E3A3D /* ViewController.m in Sources */,
 				0B4A050F17589073009E3A3D /* UIFancySwitch.m in Sources */,
+				0B4A05121758913D009E3A3D /* UIFancySwitchButton.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
