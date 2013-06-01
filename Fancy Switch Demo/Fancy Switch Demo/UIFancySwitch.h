@@ -7,7 +7,15 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "UIFancySwitchButton.h"
 
-@interface UIFancySwitch : UIControl
+@interface UIFancySwitch : UIControl <UIFancySwitchButtonDelegate>
+
+@property (strong, nonatomic) NSDictionary *skinSettings;
+@property (strong, nonatomic) UIFancySwitchButton *switchButton;
+
+// skin settings
+@property (strong, nonatomic) UIColor *tintColor1;
+@property (strong, nonatomic) UIColor *tintColor2;
 
 @end
