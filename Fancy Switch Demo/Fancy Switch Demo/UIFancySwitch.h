@@ -17,5 +17,8 @@
 // skin settings
 @property (strong, nonatomic) UIColor *tintColor1;
 @property (strong, nonatomic) UIColor *tintColor2;
+@property (nonatomic) BOOL on;
+@property (strong, nonatomic) UIImageView *iconOn;
+@property (strong, nonatomic) UIImageView *iconOff;
 
 @end

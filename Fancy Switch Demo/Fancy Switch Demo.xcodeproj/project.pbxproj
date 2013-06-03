@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0B0DB5FF175C2DA1000E0E89 /* UIFancySwitchBoxView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B0DB5FE175C2DA1000E0E89 /* UIFancySwitchBoxView.m */; };
+		0B0DB604175C832C000E0E89 /* female-icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 0B0DB600175C832C000E0E89 /* female-icon.png */; };
+		0B0DB605175C832C000E0E89 /* female-icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0B0DB601175C832C000E0E89 /* female-icon@2x.png */; };
+		0B0DB606175C832C000E0E89 /* male-icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 0B0DB602175C832C000E0E89 /* male-icon.png */; };
+		0B0DB607175C832C000E0E89 /* male-icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0B0DB603175C832C000E0E89 /* male-icon@2x.png */; };
 		0B4A04EA17588FDF009E3A3D /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0B4A04E917588FDF009E3A3D /* UIKit.framework */; };
 		0B4A04EC17588FDF009E3A3D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0B4A04EB17588FDF009E3A3D /* Foundation.framework */; };
 		0B4A04EE17588FDF009E3A3D /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0B4A04ED17588FDF009E3A3D /* CoreGraphics.framework */; };
@@ -31,6 +36,12 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0B0DB5FD175C2DA1000E0E89 /* UIFancySwitchBoxView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UIFancySwitchBoxView.h; sourceTree = "<group>"; };
+		0B0DB5FE175C2DA1000E0E89 /* UIFancySwitchBoxView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UIFancySwitchBoxView.m; sourceTree = "<group>"; };
+		0B0DB600175C832C000E0E89 /* female-icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "female-icon.png"; sourceTree = "<group>"; };
+		0B0DB601175C832C000E0E89 /* female-icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "female-icon@2x.png"; sourceTree = "<group>"; };
+		0B0DB602175C832C000E0E89 /* male-icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "male-icon.png"; sourceTree = "<group>"; };
+		0B0DB603175C832C000E0E89 /* male-icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "male-icon@2x.png"; sourceTree = "<group>"; };
 		0B4A04E617588FDF009E3A3D /* Fancy Switch Demo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Fancy Switch Demo.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		0B4A04E917588FDF009E3A3D /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		0B4A04EB17588FDF009E3A3D /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -148,6 +159,8 @@
 				0B4A050E17589073009E3A3D /* UIFancySwitch.m */,
 				0B4A05101758913D009E3A3D /* UIFancySwitchButton.h */,
 				0B4A05111758913D009E3A3D /* UIFancySwitchButton.m */,
+				0B0DB5FD175C2DA1000E0E89 /* UIFancySwitchBoxView.h */,
+				0B0DB5FE175C2DA1000E0E89 /* UIFancySwitchBoxView.m */,
 			);
 			name = UIFancySwitch;
 			sourceTree = "<group>";
@@ -155,6 +168,10 @@
 		0B4A0514175892DE009E3A3D /* imgs */ = {
 			isa = PBXGroup;
 			children = (
+				0B0DB600175C832C000E0E89 /* female-icon.png */,
+				0B0DB601175C832C000E0E89 /* female-icon@2x.png */,
+				0B0DB602175C832C000E0E89 /* male-icon.png */,
+				0B0DB603175C832C000E0E89 /* male-icon@2x.png */,
 				0B4A0528175898BB009E3A3D /* bg-left.png */,
 				0B4A0529175898BB009E3A3D /* bg-left@2x.png */,
 				0B4A052A175898BB009E3A3D /* bg-right.png */,
@@ -230,6 +247,10 @@
 				0B4A052D175898BB009E3A3D /* bg-left@2x.png in Resources */,
 				0B4A052E175898BB009E3A3D /* bg-right.png in Resources */,
 				0B4A052F175898BB009E3A3D /* bg-right@2x.png in Resources */,
+				0B0DB604175C832C000E0E89 /* female-icon.png in Resources */,
+				0B0DB605175C832C000E0E89 /* female-icon@2x.png in Resources */,
+				0B0DB606175C832C000E0E89 /* male-icon.png in Resources */,
+				0B0DB607175C832C000E0E89 /* male-icon@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -246,6 +267,7 @@
 				0B4A050F17589073009E3A3D /* UIFancySwitch.m in Sources */,
 				0B4A05121758913D009E3A3D /* UIFancySwitchButton.m in Sources */,
 				0B4A0527175896B1009E3A3D /* UIColor+HexString.m in Sources */,
+				0B0DB5FF175C2DA1000E0E89 /* UIFancySwitchBoxView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -360,6 +382,7 @@
 				0B4A050B17588FDF009E3A3D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

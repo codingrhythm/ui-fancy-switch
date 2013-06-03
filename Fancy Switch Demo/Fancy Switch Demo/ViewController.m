@@ -22,7 +22,9 @@
 	// Do any additional setup after loading the view, typically from a nib.
     [self.view setBackgroundColor:[UIColor colorWithHexString:@"#f5f5f5"]];
     
-    UIFancySwitch *fancySwitch = [[UIFancySwitch alloc] initWithFrame:CGRectMake(20.0f, 20.0f, 120.0f, 50.0f)];
+    UIFancySwitch *fancySwitch = [[UIFancySwitch alloc] initWithFrame:CGRectMake(20.0f, 20.0f, 190.0f, 84.0f)];
+    [fancySwitch.iconOff setImage:[UIImage imageNamed:@"female-icon"]];
+    [fancySwitch.iconOn setImage:[UIImage imageNamed:@"male-icon"]];
     [self.view addSubview:fancySwitch];
 }
 

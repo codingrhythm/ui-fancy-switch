@@ -13,11 +13,11 @@
 
 @optional
 // when switch button is dragged by user
--(void)switchButtonMoving;
+-(void)switchButtonMoved;
 
 @end
 
-@interface UIFancySwitchButton : UIImageView
+@interface UIFancySwitchButton : UIView
 
 // most left position the button can move
 @property (nonatomic) CGFloat minPosX;
